@@ -13,7 +13,7 @@ That will check for an integer (0-9) values with a maximum of 10 digits.
 
 The "email" type on HTML only checks for an @ sign with any values on the end.
 
-This pattern will also check to require .{any_string} with minimum of 2 characters at the end
+This pattern will also check to require .{any_string} with a minimum of 2 characters at the end
 
     <input id="email" type="email" name="email"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
