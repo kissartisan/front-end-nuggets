@@ -1,6 +1,6 @@
 # Handy cheat sheet
 
-### 1. Validating a 10-digit number
+### 1. Validating a nth-digit number
 
     <input id="phone" type="text" name="phone" 
         maxlength="10" pattern="[0-9]{10}" 
