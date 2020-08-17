@@ -1,6 +1,6 @@
 # Handy cheat sheet
 
-### 1. Validating a nth-digit number
+### 1. [HTML] Validating a nth-digit number
 
     <input id="phone" type="text" name="phone" 
         maxlength="10" pattern="[0-9]{10}" 
@@ -9,9 +9,9 @@
 That will check for an integer (0-9) values with a maximum of 10 digits.
 
 
-### 2. Validating an email to require .{any_string} at the end
+### 2. [HTML] Validating an email to require .{any_string} at the end
 
-The "email" type on HTML only checks for an @ sign with any values on the end.
+The "email" type on HTML only checks for an @ sign with any values on the end but does not consider the dot (.) before the domain extension (e.g. myemail@test.com).
 
 This pattern will also check to require .{any_string} with a minimum of 2 characters at the end
 
