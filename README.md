@@ -19,3 +19,10 @@ This pattern will also check to require .{any_string} with a minimum of 2 charac
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         title="Please enter a valid email" required>
 
+### 3. [JS] Comparing JavaScript objects
+
+I've searched a lot on this one but finally I got the most simple solution that worked on what I'm trying to achieve.
+
+I just converted a JavaScript object or value to a JSON string and that's it:
+
+    return JSON.stringify(baseObject) === JSON.stringify(comparedObject);
