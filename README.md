@@ -56,7 +56,7 @@ Reference URL: [Sticky CSS Grid Items](https://melanie-richards.com/blog/css-gri
 
 **ANOTHER IMPORTANT NOTE THAT COULD SAVE YOU A LOT OF TIME DEBUGGING**
 - You may encounter certain circumstances wherein the `position:sticky;` is still not working when doing the things above.
-- If so, look for an ancestor element that has an overflow that is set to hidden (`overflow:hidden;`). It may cause the sticky positioning to not work as expected. - You may have to go up the DOM tree higher than you expected. I promise you. :p
+- If so, look for an ancestor element that has an overflow that is set to hidden (`overflow:hidden;`). It may cause the sticky positioning to not work as expected. You may have to go up the DOM tree higher than you expected. I promise you. :p
 
 Reference URL: [How does the “position: sticky;” property work?](https://stackoverflow.com/questions/43707076/how-does-the-position-sticky-property-work/47878455#47878455)
 
