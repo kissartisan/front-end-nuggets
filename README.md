@@ -31,11 +31,11 @@ I just converted a JavaScript object or value to a JSON string and that's it:
 
 By default, using `position:sticky;` on any item in the Grid layout will not be sticking to the top of the viewport since CSS Grid item sizing algorithm has effectively sized the grid item to fill the height of the grid slot it has been placed in.
 
-To resize the item to compute it's height to be just enough to accommodate the element’s contents, we can use one of the following approach:
+To resize the item to compute its height to be just enough to accommodate the element’s contents, we can use one of the following approach:
 
 We can specify one of the following:
 1. `align-self:` this property, when specified on a sticky element, tells the element how to align itself to the block direction of the grid slot it’s in. 
-2. `align-self: start` would work nicely in our example, as it will align the item to the “start” edge of the grid slot (in this context, the top edge).
+2. `align-self: start;` would work nicely in our example, as it will align the item to the “start” edge of the grid slot (in this context, the top edge).
 3. `align-items:` this property, when specified on the parent grid, tells each grid item how to align itself to the block direction of the grid slot it’s in
 
 Here is a sample working solution to see it in action:
