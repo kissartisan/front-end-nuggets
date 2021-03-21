@@ -61,4 +61,19 @@ Reference URL: [Sticky CSS Grid Items](https://melanie-richards.com/blog/css-gri
 Reference URL: [How does the “position: sticky;” property work?](https://stackoverflow.com/questions/43707076/how-does-the-position-sticky-property-work/47878455#47878455)
 
 
+### 4. [JS] Make array of object render in random order
 
+Use `.sort(() => Math.random() - .5)`.
+
+Example:
+
+    [
+        { color: 'green', flipped: false, cleared: false },
+        { color: 'red', flipped: false, cleared: false },
+        { color: 'blue', flipped: false, cleared: false },
+        { color: 'yellow', flipped: false, cleared: false },
+        { color: 'green', flipped: false, cleared: false },
+        { color: 'red', flipped: false, cleared: false },
+        { color: 'blue', flipped: false, cleared: false },
+        { color: 'yellow', flipped: false, cleared: false },
+    ].sort(() => Math.random() - .5)
