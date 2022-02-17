@@ -92,3 +92,7 @@ Example:
 In the above example, `query.foo && { foo: query.foo }` will return `{ foo: query.foo }` if `query.foo` is truthy, and will short-circuit to return false if `query.foo` is falsey.
 
 Reference: https://medium.com/@mikeh91/conditionally-adding-keys-to-javascript-objects-using-spread-operators-and-short-circuit-evaluation-acf157488ede
+
+
+### 6. [JS] JavaScript diagramming - Mermaid
+    https://github.com/mermaid-js/mermaid
