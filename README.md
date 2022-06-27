@@ -96,3 +96,6 @@ Reference: https://medium.com/@mikeh91/conditionally-adding-keys-to-javascript-o
 
 ### 6. [JS] JavaScript diagramming - Mermaid
     https://github.com/mermaid-js/mermaid
+
+### 7. [JS] Detecting OS of the user
+    https://stackoverflow.com/a/21742107
